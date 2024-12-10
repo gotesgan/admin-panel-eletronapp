@@ -1,1 +1,29 @@
-{"name":"admin-panel","version":"1.0.0","description":"Hello World!","main":"main.js","author":"Jane Doe","license":"MIT","scripts":{"start":"electron .","build":"electron-builder"},"devDependencies":{"electron":"^33.2.1","electron-builder":"^25.1.8"}}
+{
+  "name": "admin-panel",  
+  "version": "1.0.0",
+  "description": "Admin panel for managing the system.",
+  "main": "main.js",  
+  "author": "Shantanu", 
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.shantanu.adminpanel",  
+      "productName": "Admin Panel",  
+    "icon": "bizonance_logo.png",  
+    "mac": {
+      "icon": "bizonance_logo.png" 
+    },
+    "win": {
+      "icon": "bizonance_logo.png"  
+    },
+    "linux": {
+      "icon": "bizonance_logo.png" 
+  }
+}
